@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:hospital_portal/screens/Homepage.dart';
-import 'package:hospital_portal/screens/Hospital.dart';
-import 'package:hospital_portal/screens/Verification.dart';
-import 'package:hospital_portal/screens/Registration.dart';
-import 'package:hospital_portal/screens/After_verif.dart';
-import 'package:hospital_portal/screens/otp.dart';
+import 'package:municipality_portal/screens/Homepage.dart';
+import 'package:municipality_portal/screens/Hospital.dart';
+import 'package:municipality_portal/screens/Verification.dart';
+import 'package:municipality_portal/screens/Registration.dart';
+import 'package:municipality_portal/screens/After_verif.dart';
+import 'package:municipality_portal/screens/otp.dart';
 
 void main() => runApp(MyApp());
 

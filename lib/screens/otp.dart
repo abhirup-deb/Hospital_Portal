@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'dart:math';
 import 'package:flutter_otp/flutter_otp.dart';
 import 'package:flushbar/flushbar.dart';
-import 'package:hospital_portal/screens/After_verif.dart';
+import 'package:municipality_portal/screens/After_verif.dart';
 import 'package:path/path.dart' as p;
 import 'package:sqflite/sqflite.dart';
-import 'package:hospital_portal/screens/Registration.dart';
+
 
 
 

@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:municipality_portal/screens/Homepage.dart';
-import 'package:municipality_portal/screens/Hospital.dart';
-import 'package:municipality_portal/screens/Verification.dart';
 import 'package:municipality_portal/screens/Registration.dart';
 import 'package:municipality_portal/screens/After_verif.dart';
 import 'package:municipality_portal/screens/otp.dart';
@@ -20,9 +18,7 @@ class MyApp extends StatelessWidget {
       initialRoute: Homepage.id,
       routes: {
         Homepage.id: (context) => Homepage(),
-        Verification.id: (context) => Verification(),
         Registration.id: (context) => Registration(),
-        Hospital.id: (context) => Hospital(),
         After_verif.id: (context) => After_verif(),
         otp.id: (context) => otp(),
       },

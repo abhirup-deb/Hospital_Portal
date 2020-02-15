@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:hospital_portal/screens/Hospital.dart';
-import 'package:hospital_portal/screens/Registration.dart';
-import 'package:hospital_portal/screens/Verification.dart';
+import 'package:municipality_portal/screens/Registration.dart';
+
 
 class Homepage extends StatefulWidget {
   static const String id = 'Homepage';
@@ -37,20 +36,6 @@ class _HomepageState extends  State<Homepage>{
             title: Text('Register'),
             onTap: () {
               Navigator.pushNamed(context, Registration.id);
-            },
-          ),
-          ListTile(
-            leading: Icon(Icons.verified_user),
-            title: Text('Verification'),
-            onTap: () {
-              Navigator.pushNamed(context, Verification.id);
-            },
-          ),
-          ListTile(
-            leading: Icon(Icons.local_hospital),
-            title: Text('Hospital'),
-            onTap: () {
-              Navigator.pushNamed(context, Hospital.id);
             },
           ),
         ],

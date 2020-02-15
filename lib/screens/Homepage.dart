@@ -21,7 +21,7 @@ class _HomepageState extends  State<Homepage>{
         children:  <Widget>[
           DrawerHeader(
             decoration: BoxDecoration(
-              color: Color(0xFF01579B),
+              color: Colors.teal,
             ),
             child: Text(
               'Home',

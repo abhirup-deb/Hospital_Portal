@@ -166,7 +166,7 @@ class _RegistrationState extends  State<Registration>{
                     });
                   }
                 },
-                  child: Text('Register',style: TextStyle(fontSize: 20.0),),color: Colors.teal,elevation: 7.0,shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(38.0),),),
+                  child: Text('Generate Certificate',style: TextStyle(fontSize: 20.0),),color: Colors.teal,elevation: 7.0,shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(38.0),),),
               ),
             ],
           ),

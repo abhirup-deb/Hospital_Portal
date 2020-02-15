@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:hospital_portal/screens/Homepage.dart';
+import 'package:municipality_portal/screens/Homepage.dart';
 
 class After_verif extends StatefulWidget{
   static const String id = 'After_verif';

@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:hospital_portal/screens/Homepage.dart';
-import 'package:hospital_portal/screens/Verification.dart';
-import 'package:hospital_portal/screens/Hospital.dart';
+import 'package:municipality_portal/screens/Homepage.dart';
 import 'package:flushbar/flushbar.dart';
 import 'package:sqflite/sqflite.dart';
 import 'package:path/path.dart' as p;
+import 'package:municipality_portal/screens/otp.dart';
 
 
 class Registration extends StatefulWidget {
@@ -61,20 +60,6 @@ class _RegistrationState extends  State<Registration>{
               title: Text('Home'),
               onTap: () {
                 Navigator.pushNamed(context, Homepage.id);
-              },
-            ),
-            ListTile(
-              leading: Icon(Icons.verified_user),
-              title: Text('Verification'),
-              onTap: () {
-                Navigator.pushNamed(context, Verification.id);
-              },
-            ),
-            ListTile(
-              leading: Icon(Icons.local_hospital),
-              title: Text('Hospital'),
-              onTap: () {
-                Navigator.pushNamed(context, Hospital.id);
               },
             ),
           ],
@@ -176,7 +161,7 @@ class _RegistrationState extends  State<Registration>{
 
                     Future.delayed(const Duration(seconds: 3), () {
                       setState(() {
-                        Navigator.pushNamed(context, Homepage.id);
+                        Navigator.pushNamed(context, otp.id);
                       });
                     });
                   }
